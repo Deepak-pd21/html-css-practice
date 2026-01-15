@@ -92,6 +92,12 @@
         font-weight: bold;
         cursor: pointer;
     }
+    .cart-1:hover {
+        opacity: 0.8;
+    }
+    .cart-1:active {
+        opacity: 0.4;
+    }
     .buy {
         background-color: rgb(255, 164, 28);
         border-radius: 15px;
@@ -100,6 +106,18 @@
         border: none;
         font-weight: bold;
         cursor: pointer;
+    }
+    .buy:hover {
+        opacity: 0.8;
+    }
+    .buy:active {
+        opacity: 0.4;
+    }
+    .Amazon {
+        transition: color 0.2s;
+    }
+    .Amazon:hover {
+        color: rgb(255, 98, 0);
     }
 </style>
 <button class="Request">
@@ -128,7 +146,7 @@
     Save
 </button>
 <hr>
-<a href="" target="_blank">Back to Amazon</a>
+<a class="Amazon" href="" target="_blank">Back to Amazon</a>
 <h1>Nike Black Running Shoes</h1>
 <h3 class="stock">$39 - in stock.</h3>
 <p>Free delivery tomorrow.</p>
