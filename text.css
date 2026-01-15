@@ -41,3 +41,12 @@
     .span-1:hover {
         text-decoration: underline;
     }
+    h1 {
+        font-family: Montserrat;
+    }
+    .new{
+        font-family: Montserrat;
+    }
+    .span-2 {
+        text-decoration: underline;
+    }
