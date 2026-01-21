@@ -22,10 +22,32 @@
 
 .middle-section{
     margin-left: 70px;
-    background-color: lightpink;
     flex: 1;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search{
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.search::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button{
+    height: 40px;
+    width: 60px;
+}
+.voice-search-button{
+    height: 40px;
+    width: 40px;
 }
 
 .right-section{
