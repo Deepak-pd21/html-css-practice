@@ -23,6 +23,7 @@
 }
 .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
 }
 .author,.view {
     font-size: 12px;
