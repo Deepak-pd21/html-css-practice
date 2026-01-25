@@ -4,6 +4,11 @@
     bottom: 0;
     top: 55px;
     background-color: white;
-    width: 72px;
-    
+    width: 72px;   
+}
+.sidebar-link{
+    height: 80px;
+}
+.sidebar-link:hover{
+    background-color:rgb(235, 235, 235) ;
 }
