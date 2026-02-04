@@ -6,23 +6,68 @@
 html,
 body{
     font-family: "Roboto", sans-serif;
+    background-color: #2d0070;
+    color: white;
 }
 h1{
     font-size: 87px;
-    color: white;
     font-family: "Outfit", sans-serif;
 }
 h2{
     font-family: "Outfit", sans-serif;
     font-size: 57px;
-    color: white;
 }
 h3{
     font-family: "Outfit", sans-serif;
     font-size: 20px;
-    color: white;
     text-transform: uppercase;
     line-height: 27.5px;
     letter-spacing: 10%;
     font-weight: 600;
+}
+p{
+    font-size: 18px;
+    line-height: 27.5px;
+    font-family: "Outfit", sans-serif;
+}
+
+li{
+    font-size: 20px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.text-md {
+    font-size: 16px;
+    line-height: 27.5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.texta-sm {
+    font-size: 14px;
+    line-height: 128%;
+    font-family: "Outfit", sans-serif;    
+}
+
+.container {
+    max-width: 1065px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    ul{
+       display: flex;
+    justify-content: space-between;
+    }
 }
