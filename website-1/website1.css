@@ -57,6 +57,11 @@ a:hover{
     font-family: "Outfit", sans-serif;    
 }
 
+button{
+    font-size: 20px;
+}
+
+/*nav section*/
 .container {
     max-width: 1065px;
     margin: 0 auto;
