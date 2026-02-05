@@ -65,9 +65,38 @@ a:hover{
 nav{
     display: flex;
     justify-content: space-between;
-    
+    margin-top: 64px;
+    margin-bottom: 48px;
     ul{
        display: flex;
-    justify-content: space-between;
+       list-style: none;
+       gap: 76px;
+
     }
+}
+
+/*hero section*/
+
+.hero{
+    display: flex;
+
+    .content{
+        flex: 1;
+        h1{
+            line-height: 1;
+        }
+        p{
+            margin-top: 28px;
+            font-weight: 400;
+        }
+    }
+}
+.button{
+}
+
+.img_container{
+    flex: 1;
+}
+.img_container img{
+    width: 100%;
 }
