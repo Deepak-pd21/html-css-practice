@@ -58,7 +58,9 @@ a:hover{
 }
 
 button{
+    padding: 22px 32px;
     font-size: 20px;
+    border-radius: 9999px;
 }
 
 /*nav section*/
@@ -95,8 +97,6 @@ nav{
             font-weight: 400;
         }
     }
-}
-.button{
 }
 
 .img_container{
