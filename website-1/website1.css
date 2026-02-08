@@ -16,6 +16,7 @@ h1{
 h2{
     font-family: "Outfit", sans-serif;
     font-size: 57px;
+    line-height: 1;
 }
 h3{
     font-family: "Outfit", sans-serif;
@@ -157,6 +158,7 @@ button:hover{
 .feature_section{
     display: flex;
     align-items: center;
+    gap: 45px;
 
     .img_container{
         flex: 1;
@@ -166,5 +168,14 @@ button:hover{
     }
     .content{
         flex: 1;
+        h2{
+            margin-top: 16px;
+            margin-bottom: 20px;
+        }
+
+        button{
+            margin-top: 24px;
+            min-width: 356px;
+        }
     }
 }
