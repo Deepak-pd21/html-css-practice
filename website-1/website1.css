@@ -63,6 +63,18 @@ button{
     border-radius: 9999px;
 }
 
+.solid_btn{
+    background-color: #9F3EE7;
+    color: white;
+    border: none;
+}
+
+.outline_btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #9F3EE7;
+}
+
 /*nav section*/
 .container {
     max-width: 1065px;
@@ -97,11 +109,39 @@ nav{
             font-weight: 400;
         }
     }
-}
 
+.button{
+    display: flex;
+    gap: 16px;
+    margin-top: 36px;
+    button{
+        width: 255px;
+    }
+}
+button:hover{
+    cursor: pointer;
+}
 .img_container{
     flex: 1;
 }
 .img_container img{
     width: 100%;
+}
+}
+
+/*brand section*/
+
+.brand{
+   text-align: center;
+}
+
+.brand_logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   } 
+.brand_logo img{
+    height: 100%;
+    object-fit: contain;
 }
