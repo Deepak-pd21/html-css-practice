@@ -52,7 +52,7 @@ a:hover{
     font-family: "Outfit", sans-serif;
 }
 
-.texta-sm {
+.text-sm {
     font-size: 14px;
     line-height: 128%;
     font-family: "Outfit", sans-serif;    
@@ -177,5 +177,25 @@ button:hover{
             margin-top: 24px;
             min-width: 356px;
         }
+    }
+}
+
+/*testimonial section*/
+
+.testimonial_section{
+    text-align: center;
+    margin-top: 174px;
+    .testimonial{
+            display: flex;
+        .card{
+           background: rgba(62, 5, 127, 1);
+           .img_container{
+
+           }
+           .img_container img{
+
+           }
+        }
+
     }
 }
