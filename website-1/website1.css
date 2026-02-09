@@ -82,7 +82,7 @@ button{
 }
 
 /*nav section*/
-.container {
+.wrapper {
     max-width: 1065px;
     margin: 0 auto;
 }
@@ -304,4 +304,16 @@ footer{
         }
     }
 
+}
+
+.wrapper{
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+.grad_bg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
