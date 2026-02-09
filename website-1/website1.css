@@ -188,12 +188,21 @@ button:hover{
     .testimonial{
             display: flex;
         .card{
+            padding-top: 95px;
+            padding-bottom: 49px;
+            padding-left: 28px;
+            padding-right: 28px;
            background: rgba(62, 5, 127, 1);
+           position: relative;
            .img_container{
-
+            position: absolute;
+            top: -50px;
+            padding-bottom: 26px;
+            padding-top: 69px;
            }
            .img_container img{
-
+            height: 138px;
+            width: 138px;
            }
         }
 
