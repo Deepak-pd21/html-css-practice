@@ -1,4 +1,28 @@
+body{
+    font-size: 22px;
+}
+
+h1, h2{
+    color: blue;
+}
 p{
-    font-size: 64px;
-    color: aqua;
+    color: purple;
+}
+
+.gray{
+    color: gray;
+}
+/* # is used as specific selector for selecting id */
+#second{
+    font-style: italic;
+}
+
+.highlight{
+    text-transform: uppercase ;
+    text-decoration:underline ;
+    background-color: yellow;
+}
+.highlight:hover{
+    cursor: pointer;
+    text-decoration: none;
 }
