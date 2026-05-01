@@ -6,7 +6,7 @@ h1, h2{
     color: blue;
 }
 p{
-    color: purple;
+    color: purple !important; /*important makes it main or important or it  overrides and gives it to other*/
 }
 
 .gray{
